@@ -1,4 +1,48 @@
- button,input{
-    padding: 10px;
-    margin: 10px;
- }
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: skyblue;
+   height: 100vh;
+   width: 100%;
+   flex-direction: column;
+}
+
+button,
+input {
+   padding: 10px;
+   margin: 10px;
+}
+
+button {
+   border: 2px solid purple;
+   padding: 10px;
+   border-radius: 3px;
+   margin: 5px;
+   font-weight: bold;
+   color: purple;
+   font-size: 16px;
+   background-color: plum;
+}
+
+input {
+   padding: 10px;
+   border: 2px solid #ccc;
+   font-size: 17px;
+   color: #e20d71;
+   font-weight: bold;
+}
+
+input:focus {
+   outline: none;
+}
+
+h1 {
+   color: #9c0ca1;
+   padding: 10px 10px 20px;
+}

@@ -26,7 +26,9 @@ function increment() {
 btn1.addEventListener("click", decrement);
 function decrement() {
     let count = document.querySelector(".values").value;
-    count--;
+    if (count > 0) {
+        count--;
+    }
     console.log(count);
     document.querySelector(".values").value = count;
 }
